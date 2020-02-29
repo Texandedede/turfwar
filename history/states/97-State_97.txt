@@ -1,0 +1,12 @@
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		30 42 119 123 309 319 364 421 
+	}
+		manpower= 600000
+	history={ owner = SAL
+			add_core_of = SAL }
+	state_category= town
+	buildings_max_level_factor=1.000
+}

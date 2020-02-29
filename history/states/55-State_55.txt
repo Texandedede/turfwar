@@ -1,0 +1,12 @@
+state={
+	id=55
+	name="STATE_55"
+	provinces={
+		109 113 339 
+	}
+	manpower=30000
+	history={ owner = TAR
+			add_core_of = TAR }
+	state_category= wasteland
+	buildings_max_level_factor=1.000
+}

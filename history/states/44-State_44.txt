@@ -1,0 +1,16 @@
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		84 215 282 387 
+	}
+	manpower=10000
+		resources={
+		oil=40.000
+		rubber=32.000
+	}
+	history={ owner = OCT
+			add_core_of = OCT }
+	state_category= wasteland
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=112
+	name="STATE_112"
+	provinces={
+		28 69 107 233 304 428 
+	}
+	manpower=700000
+	history={ owner = JFC}
+		history={ owner = JFC
+	buildings = {
+	arms_factory = 1
+	infrastructure = 4
+	industrial_complex = 1
+		}
+		add_core_of = JFC
+}
+	state_category= town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		134 186 201 252 278 329 382 
+	}
+	manpower=800000
+	history={ owner = OCT
+	buildings = {
+	arms_factory = 0
+	infrastructure = 1
+	industrial_complex = 0
+		}
+		add_core_of = OCT
+}
+
+	state_category= town
+	buildings_max_level_factor=1.000
+}

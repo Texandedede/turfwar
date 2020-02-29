@@ -1,0 +1,16 @@
+state={
+	id=59
+	name="STATE_59"
+	provinces={
+		104 145 160 297
+	}
+	manpower=100000
+	resources={
+		aluminium=40.000
+		chromium=33.000
+	}
+	history={ owner = OCT
+			add_core_of = OCT }
+	state_category= wasteland
+	buildings_max_level_factor=1.000
+}

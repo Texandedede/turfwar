@@ -1,0 +1,18 @@
+state={
+	id=117
+	name="STATE_117"
+	provinces={
+		56 175 180 
+	}
+	manpower=2000000
+		history={ owner = GRC
+	buildings = {
+	arms_factory = 0
+	infrastructure = 3
+	industrial_complex = 3
+		}
+		add_core_of = GRC
+}
+	state_category= large_town
+	buildings_max_level_factor=1.000
+}

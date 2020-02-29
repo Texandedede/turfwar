@@ -1,0 +1,1200 @@
+focus_tree = {
+	id = INK_democratic
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ink
+		}
+	}
+	continuous_focus_position = { x = 50 y = 5000}
+	
+#focusstart
+	focus = {
+		id = INK_start
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		#prerequisite = { focus = ITA_industrial_effort_2 }
+		x = 10
+		y = 0
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_firstsplatfest
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_start }
+		x = 10
+		y = 1
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_people
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_firstsplatfest }
+		x = 10
+		y = 2
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_racelaws
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_people }
+		x = 10
+		y = 3
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_martiallaw
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_racelaws }
+		x = 10
+		y = 4
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_marie
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_firstsplatfest}
+		x = 8
+		y = 2
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_apointments
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_marie}
+		x = 8
+		y = 3
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_debates
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_apointments}
+		x = 8
+		y = 4
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_economy
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_firstsplatfest}
+		x = 12
+		y = 2
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_military
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_economy}
+		x = 12
+		y = 3
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_draft
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_military}
+		x = 12
+		y = 4
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_secondsplatfest
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_draft}
+		prerequisite = { focus = INK_debates}
+		prerequisite = { focus = INK_martiallaw}
+		x = 10
+		y = 5
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+#allies
+	focus = {
+		id = INK_lookingoutwards
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_secondsplatfest}
+		x = 10
+		y = 6
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_tothewest
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_lookingoutwards}
+		x = 17
+		y = 7
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_jellies
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_tothewest}
+		x = 14
+		y = 8
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCcommunist
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_jellies}
+		x = 14
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCactivists
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_JFCcommunist}
+		x = 14
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCenemymine
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_JFCactivists}
+		x = 14
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCfascism
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_jellies}
+		x = 12
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCwarprep
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_JFCfascism}
+		x = 12
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCliberation
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_JFCwarprep}
+		x = 12
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCother
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_jellies}
+		x = 16
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCtrade
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_JFCother}
+		x = 16
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCalliance
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_JFCtrade}
+		x = 16
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_JFCfinish
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_JFCalliance
+						 focus = INK_JFCliberation
+						 focus = INK_JFCenemymine}
+		x = 14
+		y = 12
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+#Grizzco
+	focus = {
+		id = INK_corporate_relations
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_tothewest}
+		x = 20
+		y = 8
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_corporateladder
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_corporate_relations}
+		x = 21
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_corporatenegotiations
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_corporateladder}
+		x = 21
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_corporatealliances
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_corporatenegotiations}
+		x = 21
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_worker_uprising
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_corporate_relations}
+		x = 19
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_worker_negotiations
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_worker_uprising}
+		x = 19
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INKGRZ_enemymine
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_worker_negotiations}
+		x = 19
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_GRZ_finish
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INKGRZ_enemymine
+						 focus = INK_corporatealliances}
+		x = 20
+		y = 12
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_tothenorth
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_lookingoutwards}
+		x = 4
+		y = 7
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+#resistance
+	focus = {
+		id = INK_resistance
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_tothenorth}
+		x = 1
+		y = 8
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_OCRnotfriends
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		mutually_exclusive = {focus = INK_OCRfriends}
+		prerequisite = { focus = INK_resistance}
+		x = 0
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_OCRfriends
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		mutually_exclusive = {focus = INK_OCRnotfriends}
+		prerequisite = { focus = INK_resistance}
+		x = 2
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_OCRtrade
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_OCRfriends}
+		x = 2
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_OCRalliance
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_OCRtrade}
+		x = 2
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_OCRnonagression
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_OCRnotfriends}
+		x = 0
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_OCRwall
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_OCRnonagression}
+		x = 0
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_OCRfinish
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_OCRwall
+						 focus = INK_OCRalliance}
+
+		x = 1
+		y = 14
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+#disputed
+	focus = {
+		id = INK_disputed
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_tothenorth}
+		x = 7
+		y = 8
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+#IDLoctoling
+	focus = {
+		id = INK_IDLOctoling
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_disputed}
+		x = 7
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLOct_defensive
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		mutually_exclusive = {focus = INK_IDLOct_agressive}
+		prerequisite = { focus = INK_IDLOctoling}
+		x = 6
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLOct_wall
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		mutually_exclusive = {focus = INK_IDLOct_agressive}
+		prerequisite = { focus = INK_IDLOct_defensive}
+		x = 6
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}}
+	focus = {
+		id = INK_IDLOct_rebels
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLOct_wall}
+		x = 6
+		y = 12
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}}
+	focus = {
+		id = INK_IDLOct_uprising
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = INK_IDLOct_rebels}
+		x = 6
+		y = 13
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLOct_agressive
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		mutually_exclusive = {focus = INK_IDLOct_defensive}
+		prerequisite = { focus = INK_IDLOctoling}
+		x = 8
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLOct_buildup
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLOct_agressive}
+		x = 8
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLOct_morerebels
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLOct_buildup}
+		x = 8
+		y = 12
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLOct_war
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLOct_morerebels}
+		x = 8
+		y = 13
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+#IDLend
+	focus = {
+		id = INK_IDL_finish
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLOct_war
+						 focus = INK_IDLOct_uprising
+						 focus = INK_IDLindependentenemymine
+						 focus = INK_IDLinkling_annex}
+		x = 7
+		y = 14
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+#IDLinkling
+	focus = {
+		id = INK_IDLinkling
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_disputed}
+		x = 4
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLinkling_supplies
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLinkling}
+		x = 4
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLinkling_intigration
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLinkling_supplies}
+		x = 4
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLinkling_annex
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLinkling_intigration}
+		x = 4
+		y = 12
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+#IDLindependent
+	focus = {
+		id = INK_IDLindependent
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_disputed}
+		x = 10
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLindependentnegotiations
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLindependent}
+		x = 10
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLindependentalliances
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLindependentnegotiations}
+		x = 10
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_IDLindependentenemymine
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDLindependentalliances}
+		x = 10
+		y = 12
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_northfinish
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_IDL_finish}
+		prerequisite = { focus = INK_OCRfinish}
+		x = 4
+		y = 15
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_westfinish
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_GRZ_finish}
+		prerequisite = { focus = INK_JFCfinish}
+		x = 17
+		y = 15
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_the_giant_awakens
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_westfinish}
+		prerequisite = { focus = INK_northfinish}
+		x = 11
+		y = 16
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_the_great_enemy
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_the_giant_awakens}
+		x = 11
+		y = 17
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_defensive_preperations
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_the_great_enemy}
+		x = 12
+		y = 18
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_eceonomic_adjustments
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_defensive_preperations}
+		x = 12
+		y = 19
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_war_council
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_eceonomic_adjustments}
+		x = 12
+		y = 20
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_offensive_preperations
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_the_great_enemy}
+		x = 10
+		y = 18
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_mass_conscription
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_offensive_preperations}
+		x = 10
+		y = 19
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_up_production
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_mass_conscription}
+		x = 10
+		y = 20
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_the_second_great_turf_war
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_war_council}
+		prerequisite = { focus = INK_up_production}
+		x = 11
+		y = 21
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = INK_the_coming_crisis
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = INK_the_second_great_turf_war}
+		x = 11
+		y = 22
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}

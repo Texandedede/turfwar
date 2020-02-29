@@ -1,0 +1,19 @@
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		206 259 
+	}
+	manpower=3000000
+	
+	history={ owner = TAR
+	buildings = {
+	arms_factory = 1
+	infrastructure = 5
+	industrial_complex = 1}
+
+			add_core_of = TAR
+}
+	state_category= megalopolis
+	buildings_max_level_factor=1.000
+}

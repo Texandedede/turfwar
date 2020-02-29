@@ -1,0 +1,12 @@
+state={
+	id=62
+	name="STATE_62"
+	provinces={
+		 292 
+	}
+	manpower=10000
+	history={ owner = OCT
+			add_core_of = OCT }
+	state_category= wasteland
+	buildings_max_level_factor=1.000
+}

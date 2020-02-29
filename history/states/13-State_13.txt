@@ -1,0 +1,16 @@
+state={
+	id=13
+	name="STATE_13"
+	provinces={
+		27 37 52 88 287 268
+	}
+		manpower= 800000
+	resources={
+		aluminium=43.000
+		chromium=33.000
+	}
+	history={ owner = TAR
+			add_core_of = TAR}
+	state_category= rural
+	buildings_max_level_factor=1.000
+}

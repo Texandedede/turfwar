@@ -1,0 +1,22 @@
+state={
+	id=1
+	name="STATE_1"
+	provinces={
+		20 47 181 185 262 267 299 
+	}
+	manpower=3000000
+		resources={
+		steel=60.000
+		tungsten=20.000
+	}
+	history={ owner = TAR
+	buildings = {
+	arms_factory = 1
+	infrastructure = 5
+	industrial_complex = 1}
+
+			add_core_of = TAR
+}
+	state_category= megalopolis
+	buildings_max_level_factor=1.000
+}

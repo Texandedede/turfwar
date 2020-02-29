@@ -1,0 +1,20 @@
+state={
+	id=69
+	name="STATE_69"
+	provinces={
+		6 223 347 
+	}	manpower=5000000
+		history={ owner = IDL
+	buildings = {
+	arms_factory = 2
+	infrastructure = 3
+	industrial_complex = 2
+		}
+		add_core_of = IDL
+		victory_points = {
+			 223 20
+		}
+}
+	state_category= city
+	buildings_max_level_factor=1.000
+}

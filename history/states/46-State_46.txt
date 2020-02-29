@@ -1,0 +1,21 @@
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		68 196 275 
+	}
+	manpower=4500000
+
+	history={ owner = OCT
+		buildings = {
+	arms_factory = 1
+	infrastructure = 5
+	industrial_complex = 1
+		}
+
+		add_core_of = OCT
+}
+	state_category= megalopolis
+
+	buildings_max_level_factor=1.000
+}

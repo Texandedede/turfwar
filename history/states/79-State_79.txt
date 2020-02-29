@@ -1,0 +1,22 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		192 194 221 248 295 316 365 406 
+	}
+	manpower=3000000
+	resources={
+		steel=62.000
+		tungsten=30.000
+	}
+	history={ owner = SAL
+	buildings = {
+	arms_factory = 1
+	infrastructure = 5
+	industrial_complex = 1}
+
+			add_core_of = SAL
+}
+	state_category= megalopolis
+	buildings_max_level_factor=1.000
+}

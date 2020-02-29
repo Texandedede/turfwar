@@ -1,0 +1,20 @@
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		90 209 289 342 397 130
+	}
+	manpower=1000000
+
+	history={ owner = OCT
+		buildings = {
+	arms_factory = 1
+	infrastructure = 5
+	industrial_complex = 1
+		}
+
+		add_core_of = OCT
+}
+	state_category= megalopolis
+	buildings_max_level_factor=1.000
+}

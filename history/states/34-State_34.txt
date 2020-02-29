@@ -1,0 +1,19 @@
+state={
+	id=34
+	name="STATE_34"
+	provinces={
+		17 101 227 320 
+	}
+	manpower=800000
+	history={ owner = OCT
+	buildings = {
+	arms_factory = 0
+	infrastructure = 1
+	industrial_complex = 0
+		}
+		add_core_of = OCT
+}
+
+	state_category= town
+	buildings_max_level_factor=1.000
+}

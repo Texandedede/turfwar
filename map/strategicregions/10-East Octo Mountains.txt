@@ -1,0 +1,23 @@
+
+strategic_region={
+	id=10
+	name="STRATEGICREGION_10"
+	provinces={
+		19 21 23 31 46 55 63 66 103 118 121 122 139 146 147 168 197 199 207 231 249 276 298 310 336 337 346 353 363 366 367 383 384 390 391 393 394 
+	}
+	weather={
+		period={
+			between={ 0.0 30.0 }
+			temperature={ -10.0 12.0 }
+			temperature_day_night={ 2.0 -2.0 }
+			no_phenomenon=0.000
+			rain_light=0.000
+			rain_heavy=0.000
+			snow=1.000
+			blizzard=0.000
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
+	}
+}

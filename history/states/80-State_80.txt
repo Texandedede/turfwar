@@ -1,0 +1,19 @@
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		171 405 
+	}	
+
+	manpower=100000
+		history={ owner = IDL
+	buildings = {
+	arms_factory = 0
+	infrastructure = 4
+	industrial_complex = 0
+		}
+		add_core_of = IDL
+}
+	state_category= pastoral
+	buildings_max_level_factor=1.000
+}

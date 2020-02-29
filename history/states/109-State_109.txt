@@ -1,0 +1,19 @@
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		15 48 210 224 308 
+	}
+	manpower=3000000
+	
+	history={ owner = SAL
+	buildings = {
+	arms_factory = 1
+	infrastructure = 5
+	industrial_complex = 1}
+
+			add_core_of = SAL
+}
+	state_category= megalopolis
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		14 153 258 398 95
+	}
+	manpower=30000
+		resources={
+		oil=50.000
+		rubber=29.000
+	}
+	history={ owner = TAR
+			add_core_of = TAR }
+	state_category= wasteland
+	buildings_max_level_factor=1.000
+}

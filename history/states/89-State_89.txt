@@ -1,0 +1,22 @@
+state={
+	id=89
+	name="STATE_89"
+	provinces={
+		413 
+	}
+	manpower=10000
+	resources={
+		steel=67.000
+		tungsten=24.000
+	}
+		history={ owner = JFC	
+	buildings = {
+	arms_factory = 0
+	infrastructure = 0
+	industrial_complex = 0
+		}
+		add_core_of = JFC
+}
+	state_category= wasteland
+	buildings_max_level_factor=1.000
+}

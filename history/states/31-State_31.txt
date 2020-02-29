@@ -1,0 +1,15 @@
+state={
+	id=31
+	name="STATE_31"
+	provinces={
+		173 341 
+	}
+	manpower=20000
+			history={ owner = OCR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = OCR}
+		state_category= wasteland
+	buildings_max_level_factor=1.000
+}

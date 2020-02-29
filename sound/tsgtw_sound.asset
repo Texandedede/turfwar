@@ -1,0 +1,6 @@
+sound =
+{
+	name = "sad_marie"
+	file = "menu/sad_marie.wav"
+	always_load = no
+}

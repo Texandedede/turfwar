@@ -1,0 +1,10 @@
+﻿l_english:
+##### Events
+ink.1.t:0 "The Splatfest"
+ink.1.d:0 "The Emergency Splatfest was over quickly, there really was only one choice left in all of Inkopolis. As the results rolled in, Marie slowly pulled herself up in the empty newsroom, giving her usual pose as the red light on the camera turned on. It seemed to last too long, Marie the only one in the newsroom as she slowly read the results that came in on the ancient device. Even as the obvious results were announced, she kept her forced smile on, speaking in her usual slow, clear voice.\n\n “I swear, I will do all in my power to save Inkopolis. We will survive this crisis.\n\nStay Fresh!”\n\n Those last words seemed to echo through the room as the camera turned off. Marie would let out a breath, slowly slinking down at the desk, looking through the window towards Inkopolis Square. The crowds were gathering, and they were far more restless then before. Some pleading, some screaming, some crying. All desperate, all scared. Marie looked down at her paper, and only one thought could enter her head."
+ink.1.a:0 "“I have to fix this. I have to fix Inkopolis.”"
+ink.1.b:0 "“I'm not sure I can do this alone.”"
+ink.1.c:0 "“... I miss Callie. I miss Agent 4.”"
+
+#democratic focus
+INK_start:0 "Anarchy"

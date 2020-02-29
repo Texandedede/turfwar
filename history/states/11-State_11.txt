@@ -1,0 +1,12 @@
+state={
+	id=11
+	name="STATE_11"
+	provinces={
+		355 376 
+	}
+		manpower= 800000
+	history={ owner = TAR
+			add_core_of = TAR}
+	state_category= city
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=124
+	name="STATE_124"
+	provinces={
+		18 187 269 
+	}
+	manpower=3000000
+	history={ owner = INK
+	buildings = {
+	arms_factory = 2
+	infrastructure = 7
+	industrial_complex = 2
+		}
+		add_core_of = INK
+		victory_points = {
+			 187 20
+		}
+}
+
+	state_category= megalopolis
+
+	buildings_max_level_factor=1.000
+}

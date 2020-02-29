@@ -1,0 +1,24 @@
+state={
+	id=86
+	name="STATE_86"
+	provinces={
+		302 410 
+	}
+		manpower=80000	
+		resources={
+		oil=40.000
+		rubber=32.000
+	}
+
+	history={ owner = IDL
+	buildings = {
+	arms_factory = 2
+	infrastructure = 2
+	industrial_complex = 2
+		}
+		add_core_of = IDL
+}
+
+	state_category= town
+	buildings_max_level_factor=1.000
+}

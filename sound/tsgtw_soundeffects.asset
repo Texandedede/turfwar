@@ -1,0 +1,10 @@
+soundeffect =
+{
+	name = "sad_marie"
+	volume = 1
+	sounds = {
+		sound = "sad_marie"
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+}

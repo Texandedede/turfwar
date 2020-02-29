@@ -1,0 +1,16 @@
+state={
+	id=113
+	name="STATE_113"
+	provinces={
+		38 240 294 373 
+	}
+		manpower= 300000
+	resources={
+		aluminium=43.000
+		chromium=33.000
+	}
+	history={ owner = SAL
+			add_core_of = SAL }
+	state_category= rural
+	buildings_max_level_factor=1.000
+}

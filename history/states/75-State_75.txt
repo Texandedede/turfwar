@@ -1,0 +1,23 @@
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		3 75 125 200 274 280 284 
+	}
+	manpower=300000
+		resources={
+		oil=33.000
+		rubber=31.000
+	}
+	history={ owner = OCR
+		buildings = {
+			arms_factory = 1
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = OCR}
+		state_category= town
+
+	buildings_max_level_factor=1.000
+}

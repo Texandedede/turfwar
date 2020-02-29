@@ -1,0 +1,22 @@
+state={
+	id=61
+	name="STATE_61"
+	provinces={
+		41 105 263 283 317 
+	}
+	manpower=600000
+	resources={
+		steel=52.000
+		tungsten=21.000
+	}
+	history={ owner = OCR
+		buildings = {
+			arms_factory = 1
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = OCR}
+		state_category= town
+			buildings_max_level_factor=1.000
+}

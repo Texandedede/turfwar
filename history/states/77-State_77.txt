@@ -1,0 +1,16 @@
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		76 307 
+	}
+	manpower=100000
+		resources={
+		oil=45.000
+		rubber=35.000
+	}
+	history={ owner = SAL
+			add_core_of = SAL }
+	state_category= wasteland
+	buildings_max_level_factor=1.000
+}

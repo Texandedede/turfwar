@@ -1,0 +1,14 @@
+state={
+	id=71
+	name="STATE_71"
+	provinces={
+		40 115 
+	}
+	manpower=40000
+
+	history={ owner = INK
+	add_core_of = INK  }
+
+state_category= rural
+	buildings_max_level_factor=1.000
+}

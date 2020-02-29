@@ -1,0 +1,17 @@
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		4 80 279 
+	}
+	manpower=20000
+	resources={
+		steel=62.000
+		tungsten=24.000
+	}
+	history={ owner = INK 
+	add_core_of = INK}
+
+	state_category= wasteland
+	buildings_max_level_factor=1.000
+}

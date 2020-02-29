@@ -1,0 +1,21 @@
+
+add_namespace = splatnews
+
+
+news_event = {
+	id = splatnews.1
+	title = splatnews.1.t
+	desc = splatnews.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = splatnews.1.a
+			}
+		}
+	}
+	}
+}

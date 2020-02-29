@@ -1,0 +1,27 @@
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		43 128 141 172 418 416
+	}
+
+	manpower=2000000
+	resources={
+		aluminium=39.000
+		chromium=33.000
+		oil=33.000
+		rubber=31.000
+		steel=40.000
+		tungsten=20.000
+	}
+		history={ owner = GRC
+	buildings = {
+	arms_factory = 3
+	infrastructure = 4
+	industrial_complex = 3
+		}
+		add_core_of = GRC
+}
+	state_category= city
+	buildings_max_level_factor=1.000
+}

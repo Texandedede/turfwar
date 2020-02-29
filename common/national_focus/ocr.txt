@@ -1,0 +1,315 @@
+focus_tree = {
+	id = OCR_starting
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = OCR
+		}
+	}
+	continuous_focus_position = { x = 50 y = 2000}
+	
+#focusstart
+	focus = {
+		id = OCR_start
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		#prerequisite = { focus = ITA_industrial_effort_2 }
+		x = 7
+		y = 0
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_start2
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_start}
+		x = 7
+		y = 1
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_debate
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_start2 }
+		x = 6
+		y = 2
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_supplyissues
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_start2 }
+		x = 8
+		y = 2
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_arguments
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_debate }
+		x = 6
+		y = 3
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_manpower
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_supplyissues }
+		x = 8
+		y = 3
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_final_start
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_manpower }
+		prerequisite = { focus = OCR_arguments }
+		x = 7
+		y = 4
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+########## Marina Path
+	focus = {
+		id = OCR_marina
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_final_start}
+		mutually_exclusive = { focus = OCR_together}
+		mutually_exclusive = { focus = OCR_pearl } 
+		x = 3
+		y = 5
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+
+##### Lesbian Path
+	focus = {
+		id = OCR_together
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_final_start }
+		mutually_exclusive = { focus = OCR_marina}
+		mutually_exclusive = { focus = OCR_pearl } 
+		x = 7
+		y = 5
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_reconciliation
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_together }
+		x = 6
+		y = 6
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_shipments_from_inkopolis
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_together }
+		x = 8
+		y = 6
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_freedom_raids
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_reconciliation }
+		x = 6
+		y = 7
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_manufacturies
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_shipments_from_inkopolis}
+		x = 8
+		y = 7
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_training
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_manufacturies}
+		prerequisite = { focus = OCR_freedom_raids}
+		x = 7
+		y = 8
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_more_raiding
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_training}
+		x = 7
+		y = 9
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_makeup
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_more_raiding}
+		x = 7
+		y = 10
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+	focus = {
+		id = OCR_marriage
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+		prerequisite = { focus = OCR_makeup}
+		x = 7
+		y = 11
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
+#######Pearl Path
+	focus = {
+		id = OCR_pearl
+		icon = GFX_goal_generic_national_unity
+		#text = extra_tech_slot
+
+		prerequisite = { focus = OCR_final_start }
+		mutually_exclusive = { focus = OCR_marina}
+		mutually_exclusive = { focus = OCR_together } 
+		x = 11
+		y = 5
+		#relative_position_id = ITA_industrial_effort_2
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {}}
